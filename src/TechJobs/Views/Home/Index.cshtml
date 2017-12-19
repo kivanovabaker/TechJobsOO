@@ -3,7 +3,6 @@
 }
 <p>View jobs by:</p>
 <ul>
-    <a href="~/Views/Home/Index.cshtml">~/Views/Home/Index.cshtml</a>
     @foreach (KeyValuePair<string, string> action in ViewBag.actions)
     {
         <li><a href="/@action.Key">@action.Value</a></li>
